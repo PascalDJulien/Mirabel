@@ -1,5 +1,5 @@
 :: StoryTitle
-À Mirabel la vie est belle
+Mirabel
 
 
 :: StoryData
@@ -123,6 +123,7 @@ Vous y aviez cru cette nuit là. Vous y aviez cru que s'en était fini cette suc
 (set: $weapon to "Touillette")
 (set: $armor to "Tablier")
 (set: $charm to "Torsade au miel")
+(set: $status to "Normal")
 
 [[Chapître deux : Le jour où les Résidence Soleil prirent la porte 101->Chapître 2 : Le jour où les Résidence Soleil passèrent la porte 101]]
 
@@ -222,6 +223,7 @@ Niveau : (print: $level)
 Arme : (print: $weapon)
 Armure : (print: $armor)
 Amulette : (print: $charm)
+État : (print:$status)
 
 [[Démarrer l'aventure : La guerre des motards - Épisode 1 - La source du mal]]
 
@@ -250,7 +252,39 @@ Vous vous écriez :
 [[Vous soutenez le regard de la Patronne en attendant sa réponse]]
 
 
+:: Vous ne répondez rien et sautez dans un taxi {"position":"1775,1625","size":"100,100"}
+
+
+
 :: Vous quitter la pièce sans regarder derrière vous {"position":"1900,1500","size":"100,100"}
+En courant à toute vitesse dans les interminables corridors de l’aéroport de Mirabel, vous vous mordez l’intérieur de la bouche afin de retenir vos larmes de rage. Des flashbacks douloureux défilent dans votre cerveau au bord de l’implosion : La photo du petit Daniel, le visage de Timothé ensanglanté, ses yeux terrifiés, le rictus de Mom Boucher, le silence consentant de votre ex-mari, l'insupportable sentiment d’impuissance.
+
+Vous émergez sur l'embarcadère rempli de Taxis. Vous sortez la dernière Export A verte plain en jetant le paquet maintenant vide violemment par terre. En tentant d’allumer votre cigarette, vous réalisez que vous tremblez comme une feuille, tellement que le briquet vous glisse entre les doigts. Regardant furtivement autour de vous, vous plongez la main dans votre sacoche, saisissant une flasque que vous buvez d’un trait. (set: $status to "Calme hyper lucide")
+
+(text-colour:green)[ ////Vous acquérez l’état : «//Calme hyper lucide//»////.]
+
+=== Mise à jour de la fiche personnelle ===
+Points de vie : (print: $hp)
+Niveau : (print: $level)
+Arme : (print: $weapon)
+Armure : (print: $armor)
+Amulette : (print: $charm)
+État : (print:$status)
+
+À ce moment précis, toute votre énergie vitale se concentre autour d'une idée : vengeance, impitoyable et redoutable vengeance. D'un geste rapide et précis, vous ramassez votre briquet. En vous relevant, vous apercevez, à 3 mètres de vous, un homme vêtu d'un trench coat beige (en plein mois d'août !?) avec un pork pie hat et des lunettes de soleil miroirs.
+
+« Mme Suzanne Julien ? » vous adresse t-il d'une voix caverneuse.
+
+[[Vous répondez par l'affirmative]]
+[[Vous répondez par la négative]]
+[[Vous ne répondez rien et sautez dans un taxi]]
+
+
+:: Vous répondez par l'affirmative {"position":"1900,1625","size":"100,100"}
+
+
+
+:: Vous répondez par la négative {"position":"2025,1625","size":"100,100"}
 
 
 
@@ -332,6 +366,7 @@ Niveau : (print: $level)
 Arme : (print: $weapon)
 Armure : (print: $armor)
 Amulette : (print: $charm)
+État : (print: $status)
 
 
 :: dem01 {"position":"1100,450","size":"100,100"}
