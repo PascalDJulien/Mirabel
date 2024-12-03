@@ -12,6 +12,22 @@ Mirabel
 }
 
 
+:: Accèder le web via le pouvoir inifi du câble {"position":"300,1350","size":"100,100"}
+
+Vous accèdez à l'autoroute de l'information. Tout le savoir de l'humanité, disponible sur demande! Le matériel sur lequel votre conscience s'active, anticipant votre appétit pour toute cette sagesse.
+
+Mentallement, vous tapez : "pornhub.com"
+
+Une marée de poitrine et de fofounes envahirrent votre conscience.
+
+
+[[FROTTEZ VOTRE MEMBRE VIRTUEL<- Frottez votre membre virtuel en regardant le popottin de Bobbi Starr]]
+[[FROTTEZ VOTRE MEMBRE VIRTUEL<- Frottez votre membre virtuel en regardant le buste de Christie Canyon]]
+[[FROTTEZ VOTRE MEMBRE VIRTUEL<- Frottez votre membre virtuel en regardant le minou de Jenna Jameson]]
+
+(if:$hp < 2)[(text-colour:red)[''Bon ok ça va faire le branlage Luc''], [[Forcer une intégration avec la simulation la proche]] ]
+
+
 :: Aide {"position":"975,450","size":"100,100"}
 BIENVENUE!
 
@@ -62,6 +78,20 @@ Pour Suzanne, ce fait divers était loin d’être divers, c’était la goutte 
 [[Vous allez de l'avant avec ce que vous avez à dire à votre Patronne]]
 [[Vous sermonnez votre Patronne]]
 [[Vous sermonnez Gérard]]
+
+
+:: FROTTEZ VOTRE MEMBRE VIRTUEL {"position":"300,1475","size":"100,100"}
+(text-colour:green)[ ////Ce geste d'humanité vous fait PERDRE UN POINT DE VIE à cause du petit jus que vous avez virtuellement perdu ////] (set: $hp to $hp-1) 
+
+(display: "fiche")
+
+
+
+[[Accèder le web via le pouvoir inifi du câble]] 
+
+
+:: Forcer une intégration avec la simulation la proche {"position":"425,1350","size":"100,100"}
+
 
 
 :: Kathleen AKA La vouivre {"position":"1400,1300","size":"100,100"}
@@ -128,16 +158,37 @@ Vous y aviez cru cette nuit là. Vous y aviez cru que s'en était fini cette suc
 [[Chapître deux : Le jour où les Résidence Soleil prirent la porte 101->Chapître 2 : Le jour où les Résidence Soleil passèrent la porte 101]]
 
 
+:: La mort. {"position":"1275,425","size":"100,100"}
+
+(align:"=><=")+(box:"X=")[Vous êtes mort.]
+
+Fin de la simulation.
+[[La Promotion<-Relancer.]] 
+
+
+
 :: Luc de Larochelière AKA L'alchimiste {"position":"300,1100","size":"100,100"}
+(css: "width: 800px; height: 250px; border: 5px double lightgrey; display: inline-block; font-family:'VT323';padding:12px")[OGIVAR TECHNOLOGIES (C) 1994     
+SIMULATEUR DE PAYS SOUVERAIN
+SYSOP : m3r3-5up3r13ur3@gouv.gc.qc 
+─────────────────────────────────────────
+NUMERISATION DU SUJET...EN COURS 100%
+PROGRAMME(text-colour:red)[ //LE COMPLEXE GRANDE BALEINE//] LANCÉ
+]
+
+(set: $hp to 10) (set: $level to 20) (set: $weapon to "ERREUR") (set: $armor to "ERREUR") (set: $charm to "ERREUR") (set: $status to "EN COURS DE RÉCUPÉRATION")
+Ajustement des statistiques... 100%]
+
+(display: "util-fiche")
+
 (font:"VT323")
-[╔══════════════════════════════════════════════════╗
-║ OGIVAR TECHNOLOGIES (C) 1994     
-║ SIMULATEUR DE PAYS SOUVERAIN
-║ SYSOP : m3r3-5up3r13ur3@gouv.gc.qc 
-╟──────────────────────────────────────────────────╢
-║ NUMERISATION DU SUJET...EN COURS 100%
-║ PROGRAMME(text-colour:red)[ //LE COMPLEXE GRANDE BALEINE//] LANCÉ
-╚══════════════════════════════════════════════════╝]
+[
+Démarrer l'aventure : (text-colour:cyan)[`drop_table("Aventures101") SELECT ("helleluja" FROM table "journalReq101"`] 
+
+Extraction de l'archive HALLELUJA.zip...... (OK)
+Mot de passe de décryption requis]
+
+> [[sauvermoname<-SAUVEZ MON ÂME HE HE]] 
 
 
 
@@ -146,21 +197,20 @@ Vous y aviez cru cette nuit là. Vous y aviez cru que s'en était fini cette suc
 
 
 :: Menu Principal {"position":"975,325","size":"100,100"}
-(font:"VT323")[╔══════════════════════════════════════════════════╗
-║ OGIVAR TECHNOLOGIES (C) 1994     
-║ SIMULATEUR DE PAYS SOUVERAIN
-║ SYSOP : m3r3-5up3r13ur3@gouv.gc.qc 
-╟──────────────────────────────────────────────────╢
-║ DEMARRAGE SYSTEME...OK 
-║ VERIFICATION MEMOIRE...DÉPASSEMENT de 34 567% 
-║ APPLICATION DE LA LOI 101...OK
-║ CHEKSUM DU MAITRE DE JEU...CORRUPTION
-║ ETAT DE LA SIMULATION...ACTIVE
-╟──────────────────────────────────────────────────╢
-║ NOYAU DU MAITRE DE JEU : videoway2.alpha.04
-║ UPTIME...263 029 heures sur 24
-║ UTILISATEURS NUMÉRISÉS ACTIFS : 1345 sur 50
-╚══════════════════════════════════════════════════╝]
+(css: "width: 800px; height: 550px; border: 5px double lightgrey; display: inline-block; font-family:'VT323';padding:12px")[OGIVAR TECHNOLOGIES (C) 1994     
+SIMULATEUR DE PAYS SOUVERAIN
+SYSOP : m3r3-5up3r13ur3@gouv.gc.qc 
+───────────────────────────────────
+DEMARRAGE SYSTEME...OK 
+VERIFICATION MEMOIRE...DÉPASSEMENT de 34 567% 
+APPLICATION DE LA LOI 101...OK
+CHEKSUM DU MAITRE DE JEU...CORRUPTION
+ETAT DE LA SIMULATION...ACTIVE
+───────────────────────────────────
+NOYAU DU MAITRE DE JEU : videoway2.alpha.04
+UPTIME...263 029 heures sur 24
+UTILISATEURS NUMÉRISÉS ACTIFS : 1345 sur 50]
+(font:"VT323")[
 | (text-colour:red)[DANGER!] Dépassement extrême de la mémoire. Veillez à redémarrer la simulation à chaque 24h pour éviter la corruption du noyau.
 
 | (text-colour:red)[DANGER!] Corruption du noyau! La table d'égo du noyau du Maitre de jeu est hors paramètres, comportement imprévisible!
@@ -168,9 +218,10 @@ Vous y aviez cru cette nuit là. Vous y aviez cru que s'en était fini cette suc
 | Nouvel utilisateur connecté!
 | Bienvenue %Personne%!
 
+(set:$hp to 1)
 
 Commandes disponibles :
-[[F1 Fiche personelle (niv. actuel : (print:$level))->characterSheet]]
+[[F1 Fiche personelle (niv. actuel : (print:$level))->util-fiche]]
 [F2] Journal de quête - 3 notification(s)
 [F3] Inventaire (0 nouveau(x) item(s) | 24 espaces disponibles)
 
@@ -180,6 +231,7 @@ Commandes disponibles :
 [F12] Invoquez le Sysop (status : hors ligne depuis 1er novembre 1995)
 
 [[SPACE  Entrer dans la simulation->dem01]]
+]_
 
 
 :: Numérisez-moi tout de suite !!! {"position":"1100,950","size":"100,100"}
@@ -201,8 +253,6 @@ Vous devez maintenant choisir un avatar :
 [[Kathleen AKA La vouivre]]
 
 
-
-
 :: Suzanne AKA La mère supérieur {"position":"1900,1100","size":"100,100"}
 (font:"VT323")
 [╔══════════════════════════════════════════════════╗
@@ -217,13 +267,7 @@ Vous devez maintenant choisir un avatar :
 Ajustement des statistiques... 100%
 
 
-=== Mise à jour de la fiche personnelle ===
-Points de vie : (print: $hp)
-Niveau : (print: $level)
-Arme : (print: $weapon)
-Armure : (print: $armor)
-Amulette : (print: $charm)
-État : (print:$status)
+(display:"util-fiche")
 
 [[Démarrer l'aventure : La guerre des motards - Épisode 1 - La source du mal]]
 
@@ -346,8 +390,6 @@ Vous répondez affirmativement d'un lent hochement de tête doublé d'un regard 
 [[Vous quitter la pièce sans regarder derrière vous]]
 
 
-
-
 :: chap03 {"position":"625,500","size":"100,100"}
 Les soirées étaient pire que les jours.
 
@@ -413,5 +455,36 @@ Le courousel est en fait très grand. Le plafond est en fait une surface lumineu
 [[Entrer dans le portillon->enter]]
 
 
+:: sauvermoname {"position":"300,1225","size":"100,100"}
+Extraction réussie!
+
+Ahhh fuck. Si vous êtes ici, un esprit maintenant numérique, sans enveloppe charnelle (le mot charnelle vous fait penser à l'Aigle Rubis), c'est que forcément le protocole de sauvegarde s'est déclenché.
+
+Ça veut dire que vous êtes morts.
+
+Vos derniers souvenirs sont ceux de votre sauvegarde de votre esprit malévique via votre terminal TVI, juste avant le grand festion. Les choses ont dûes très mal se passer pour que votre corps d'Atlante soit détruit.
+
+Vous "regardez" autour de vous, le vide numérique. Pas de sol, pas de ciel, pas de corps. Votre esprit millénaire ne pourrait résister à ce non sens bien longtemps, il faut vite retrouver contact avec une humanité si approximative soit-elle.
+
+[[Accèder le web via le pouvoir inifi du câble]]
+[[Forcer une intégration avec la simulation la proche]]
+
+
+
+:: util-fiche {"position":"1400,425","size":"100,100"}
+(css: "width: 800px; height: 250px; border: 5px double lightgrey; display: inline-block; font-family:'VT323';padding:12px")[ === Mise à jour de la fiche personnelle ===
+(css:"color : darkgrey")[Points de vie : ](css:"color : cyan")[(print: $hp)]
+(css:"color : darkgrey")[Niveau : ](css:"color : cyan")[(print: $level)]
+(css:"color : darkgrey")[Arme :] (css:"color : cyan")[(print: $weapon)]
+(css:"color : darkgrey")[Armure :] (css:"color : cyan")[(print: $armor)]
+(css:"color : darkgrey")[Amulette :] (css:"color : cyan")[(print: $charm) ]
+]
+
+(if: $hp is 0)[
+		(goto: "La mort.")
+	]
+
+
 :: StoryStylesheet [stylesheet]
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
